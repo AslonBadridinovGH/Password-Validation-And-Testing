@@ -31,6 +31,7 @@ public class PasswordTest {
         assertTrue(actual);
     }
 
+
     @Test
     public void hasMixedLettersCaseTest_whenPassword_thenReturnTrue(){
         // GIVEN

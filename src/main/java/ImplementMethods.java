@@ -54,6 +54,7 @@ public class ImplementMethods {
         return false;
     }
 
+
     public static boolean checkSpecialCharacter(String password) {
 
         for (int i = password.length() - 1; i >= 0; i--) {

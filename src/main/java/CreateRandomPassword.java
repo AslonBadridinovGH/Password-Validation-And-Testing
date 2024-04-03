@@ -1,6 +1,7 @@
 import java.util.Random;
 
 public class CreateRandomPassword {
+
     public static void main(String[] args) {
 
         String upperC= "ABCDEFGHIJKLMNOPQSRTUWXYZ";
