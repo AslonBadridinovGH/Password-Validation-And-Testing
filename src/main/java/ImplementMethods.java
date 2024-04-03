@@ -1,6 +1,6 @@
-public class PasswordC {
+public class ImplementMethods {
 
-    public static boolean passwordTest(String s) {
+    public static boolean passwordLengthTest(String s) {
 
         if (s.length()>=8){
             return true;
@@ -21,10 +21,12 @@ public class PasswordC {
         }
         return false;
     }
+
     public static boolean checkUpperLowerCase(String s){
 
         int a=0;
         int b=0;
+
         for (int i = 0; i < s.length(); i++) {
 
             char oneChar = s.charAt(i);
@@ -40,7 +42,6 @@ public class PasswordC {
        }
 
     public static boolean checkWeakPassWord(String s){
-
 
         String [] array = {"123456", "12345.","password", "usr","12345678", "qwerty"};
 
